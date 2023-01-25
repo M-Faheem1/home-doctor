@@ -1,1 +1,75 @@
-/*# sourceMappingURL=App.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Raleway:wght@400;500;600;700;800&display=swap");
+h4 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.main {
+  padding: 0 9.375rem;
+}
+
+.header {
+  display: flex;
+  margin: 4.375rem 3.125rem 0;
+  align-items: center;
+}
+.header .svgWrapper {
+  margin-right: 10.625rem;
+}
+.header ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+.header ul a {
+  text-decoration: none;
+  color: #221C26;
+}
+.header ul a:hover {
+  color: #B338FF;
+}
+.header .navItems {
+  margin-right: 10.625rem;
+}
+.header .navItems li:not(:last-child) {
+  margin-right: 3rem;
+}
+.header .socialIcons li:not(:last-child) {
+  margin-right: 1.4375rem;
+}
+
+.ourMission {
+  margin-top: 6.25rem;
+}
+.ourMission h4 {
+  text-align: center;
+}
+.ourMission .ourMissionDescription {
+  display: flex;
+  align-items: center;
+  margin-top: 3.125rem;
+}
+.ourMission .ourMissionDescription h5 {
+  margin-bottom: 1.875rem;
+  line-height: 2.375rem;
+}
+.ourMission .ourMissionDescription .ourMissionDetail {
+  margin-left: 2.5rem;
+}
+.ourMission .ourMissionDescription .ourMissionDetail p {
+  line-height: 30px;
+}/*# sourceMappingURL=App.css.map */

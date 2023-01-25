@@ -1,0 +1,66 @@
+@import './style/scss/import';
+
+body {
+  font-family: $primary-font;
+}
+
+.main {
+  padding: 0 9.375rem;
+}
+.header {
+  display: flex;
+  margin: 4.375rem 3.125rem 0;
+  align-items: center;
+  .svgWrapper {
+    margin-right: 10.625rem;
+  }
+  ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    a {
+      text-decoration: none;
+      color: $primary-font-color;
+      &:hover {
+        color: $secondary-font-color;
+      }
+    }
+  }
+  .navItems {
+    margin-right: 10.625rem;
+    li {
+      &:not(:last-child){
+        margin-right: 3rem;
+      }
+    }
+  }
+  .socialIcons {
+    li {
+      &:not(:last-child) {
+        margin-right: 1.4375rem;
+      }
+    }
+  }
+}
+
+.ourMission {
+  margin-top: 6.25rem;
+  h4 {
+    text-align: center;
+  }
+  .ourMissionDescription {
+    display: flex;
+    align-items: center;
+    margin-top: 3.125rem;
+    h5 {
+      margin-bottom: 1.875rem;
+      line-height: 2.375rem;
+    }
+    .ourMissionDetail {
+      margin-left: 2.5rem;
+      p {
+        line-height: 30px;
+      }
+    }
+  }
+}
