@@ -11,3 +11,14 @@ p {
   font-size: .875rem;
   font-weight: 400;
 }
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}

@@ -10,17 +10,15 @@ body {
 
 .header {
   display: flex;
-  margin: 4.375rem 3.125rem 0;
   align-items: center;
+  justify-content: space-between;
+  padding: 4.375rem 3.125rem 0;
   .svgWrapper {
     margin-right: 10.625rem;
   }
   ul {
-    display: flex;
-    list-style-type: none;
     padding: 0;
     a {
-      text-decoration: none;
       color: $primary-font-color;
       &:hover {
         color: $secondary-font-color;
@@ -217,9 +215,6 @@ body {
   }
   .footerMenuList {
     ul {
-      display: flex;
-      margin: 0;
-      list-style-type: none;
       :not(:last-child){
         margin-right: 2.5rem;
       }
